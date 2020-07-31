@@ -1,0 +1,25 @@
+{
+  "name": "habboverifbot",
+  "version": "0.0.1",
+  "description": "A simple verification bot for Habbo",
+  "main": "src/app.js",
+  "scripts": {
+    "run": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dwigoric/habboverification.git"
+  },
+  "author": "Dwigoric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dwigoric/habboverification/issues"
+  },
+  "homepage": "https://github.com/Dwigoric/habboverification#readme",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "klasa": "^0.5.0",
+    "rethinkdb-ts": "^2.4.4"
+  }
+}
