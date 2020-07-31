@@ -18,7 +18,8 @@ A simple Discord bot for Habbo verification using Habbo mottos, built on [klasa 
 - Modify the "not verified" role using `!conf set notVerified @rolemention`. Only members with this role will be able to request a verification code from the bot.
 - Modify the "verified" role using `!conf set verified @rolemention`. Once verified, members will be given this role.
 - Make sure the unverified and verified roles are below the bot's highest role, and that the bot has Manage Roles permission.
-- Change the motto prefix with `!conf set codePrefix <newprefix>`.
+- By default, the bot tries to add the user's Habbo username next to their nickname or Discord username. You can change this by running `!conf set setNickname false`.
+- Change the motto prefix with `!conf set codePrefix <newprefix>`. The default motto prefix is `verify`.
 
 ## Verifying Process
 1. The member runs `!getcode` to get a verification code from the bot, to be sent in their DMs.

@@ -6,8 +6,9 @@ module.exports = class HabboVerifyer extends Client {
 		super(clientOptions);
 
 		HabboVerifyer.defaultGuildSchema
-			.add('codePrefix', 'string')
+			.add('codePrefix', 'string', { default: 'verify' })
 			.add('notVerified', 'role')
+			.add('setNickname', 'boolean', { default: true })
 			.add('verified', 'role');
 
 		HabboVerifyer.defaultUserSchema
