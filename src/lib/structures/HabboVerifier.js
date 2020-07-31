@@ -1,17 +1,17 @@
 const { Client } = require('klasa');
 
-module.exports = class HabboVerifyer extends Client {
+module.exports = class HabboVerifier extends Client {
 
 	constructor(clientOptions) {
 		super(clientOptions);
 
-		HabboVerifyer.defaultGuildSchema
+		HabboVerifier.defaultGuildSchema
 			.add('codePrefix', 'string', { default: 'verify' })
 			.add('notVerified', 'role')
 			.add('setNickname', 'boolean', { default: true })
 			.add('verified', 'role');
 
-		HabboVerifyer.defaultUserSchema
+		HabboVerifier.defaultUserSchema
 			.add('verificationCode', 'string', { configurable: false });
 	}
 

@@ -1,4 +1,4 @@
-const HabboVerifyer = require('./lib/structures/HabboVerifyer');
+const HabboVerifier = require('./lib/structures/HabboVerifier');
 const { config, token } = require('./config');
 
-new HabboVerifyer(config).login(token);
+new HabboVerifier(config).login(token);

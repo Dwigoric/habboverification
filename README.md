@@ -1,4 +1,4 @@
-# Habbo Verifyer
+# Habbo Verifier
 A simple Discord bot for Habbo verification using Habbo mottos, built on [klasa framework](https://github.com/dirigeants/klasa).
 
 ## Prerequisites
