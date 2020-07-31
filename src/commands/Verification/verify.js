@@ -18,6 +18,7 @@ module.exports = class extends Command {
 		if (request.error) throw 'We could not find a Habbo user with that name!';
 		if (request.motto !== `${message.guild.settings.get('codePrefix')}-${message.author.settings.get('verificationCode')}`) throw 'Please make sure your motto and the code I sent you are the same!';
 
+		message.member.setNickname(`${message.member.displayName} (${request.name})`).catch(() => null);
 		message.member.roles.remove(message.guild.settings.get('notVerified')).catch(() => null);
 		message.member.roles.add(message.guild.settings.get('verified')).catch(() => {
 			throw 'I could not give your the verified role due to some issues, usually with permissions. If issue persists, please contact the server\'s administrator.';
