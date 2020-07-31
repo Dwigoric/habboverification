@@ -26,4 +26,4 @@ A simple Discord bot for Habbo verification using Habbo mottos, built on [klasa 
 2. The member must change their Habbo motto to that code and run `!verify <Habbo username>`.
 
 ### License
-Code from this repository is licensed under GNU Affero General Public License v2.0.
+Code from this repository is licensed under GNU Affero General Public License v3.0.
