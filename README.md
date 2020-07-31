@@ -17,6 +17,7 @@ A simple Discord bot for Habbo verification using Habbo mottos, built on [klasa 
 - The default prefix for the bot is `!`. You can change this using `!conf set prefix <new prefix>` or `@botmention conf set prefix <new prefix>`.
 - Modify the "not verified" role using `!conf set notVerified @rolemention`. Only members with this role will be able to request a verification code from the bot.
 - Modify the "verified" role using `!conf set verified @rolemention`. Once verified, members will be given this role.
+- Make sure the unverified and verified roles are below the bot's highest role, and that the bot has Manage Roles permission.
 - Change the motto prefix with `!conf set codePrefix <newprefix>`.
 
 ## Verifying Process
