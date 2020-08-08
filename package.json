@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dwigoric/habboverification.git"
+    "url": "git+https://github.com/takomst/habboverification.git"
   },
   "author": "Dwigoric",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dwigoric/habboverification/issues"
+    "url": "https://github.com/takomst/habboverification/issues"
   },
-  "homepage": "https://github.com/Dwigoric/habboverification#readme",
+  "homepage": "https://github.com/takomst/habboverification#readme",
   "dependencies": {
     "discord.js": "github:discordjs/discord.js",
     "klasa": "^0.5.0",
