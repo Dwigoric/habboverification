@@ -21,6 +21,7 @@ module.exports = class extends Command {
 		if (message.guild.settings.get('setNickname')) message.member.setNickname(`${message.member.displayName} (${request.name})`).catch(() => null);
 		message.author.settings.reset('verificationCode');
 		message.member.roles.remove(message.guild.settings.get('notVerified')).catch(() => null);
+		message.author.send('Congratulations! Your Habbo has been verified!');
 		message.member.roles.add(message.guild.settings.get('verified')).catch(() => {
 			throw 'I could not give your the verified role due to some issues, usually with permissions. If issue persists, please contact the server\'s administrator.';
 		});
