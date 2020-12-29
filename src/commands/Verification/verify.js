@@ -25,6 +25,7 @@ module.exports = class extends Command {
 		message.member.roles.add(message.guild.settings.get('verified')).catch(() => {
 			throw 'I could not give your the verified role due to some issues, usually with permissions. If issue persists, please contact the server\'s administrator.';
 		});
+		message.delete().catch(() => null);
 	}
 
 };
