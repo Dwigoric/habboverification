@@ -14,6 +14,7 @@ A simple Discord bot for Habbo verification using Habbo mottos, built on [klasa 
 5. Run `yarn run run` or `npm run run` on your CLI to start the bot. Alternatively, use a package manager such as [PM2](https://www.npmjs.com/package/pm2) to keep the bot running.
 
 ## Modifying
+- You can modify the bot's activity using the `presence` property of the config file.
 - The default prefix for the bot is `!`. You can change this using `!conf set prefix <new prefix>` or `@botmention conf set prefix <new prefix>`.
 - Modify the "not verified" role using `!conf set notVerified @rolemention`. Only members with this role will be able to request a verification code from the bot.
 - Modify the "verified" role using `!conf set verified @rolemention`. Once verified, members will be given this role.

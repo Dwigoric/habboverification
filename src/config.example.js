@@ -25,7 +25,9 @@ exports.config = {
 	// Any Websocket Events you don't want to listen to
 	disabledEvents: [],
 	// A presence to login with
-	presence: { status: 'idle', activity: { name: 'Loading...', type: 'PLAYING' } },
+	// different types: WATCHING for "Watching ...", LISTENING for "Listening to ...", and PLAYING for "Playing ..."
+	// status can be 'online', 'idle', 'dnd', or 'offline'
+	presence: { status: 'online', activity: { name: 'Habbo verifiers', type: 'LISTENING' } },
 	// A once ready message for your console
 	readyMessage: (client) => `Successfully initialized. Ready to serve ${client.guilds.size} guild${client.guilds.size === 1 ? '' : 's'}.`,
 
