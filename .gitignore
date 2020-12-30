@@ -117,4 +117,4 @@ dist
 
 
 # Custom gitignore
-src/config.js
+./config.js
