@@ -20,6 +20,6 @@
   "dependencies": {
     "discord.js": "github:discordjs/discord.js",
     "klasa": "^0.5.0",
-    "rethinkdb-ts": "^2.4.4"
+    "rethinkdb-ts": "^2.4.9"
   }
 }

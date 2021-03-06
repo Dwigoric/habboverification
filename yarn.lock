@@ -92,10 +92,10 @@ prism-media@^1.2.0:
   resolved "https://registry.yarnpkg.com/prism-media/-/prism-media-1.2.2.tgz#4f1c841f248b67d325a24b4e6b1a491b8f50a24f"
   integrity sha512-I+nkWY212lJ500jLe4tN9tWO7nRiBAVdMv76P9kffZjYhw20raMlW1HSSvS+MLXC9MmbNZCazMrAr+5jEEgTuw==
 
-rethinkdb-ts@^2.4.4:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/rethinkdb-ts/-/rethinkdb-ts-2.4.4.tgz#aedb7f8fc6bc576d5e90082ca05aaf2384db2f12"
-  integrity sha512-G/CgYC2sjH4SrtMD8HdCiEGvzese8gIVmvdPHCmZYifcvqqKQ8ZbwaGlNr07sxo3EuU9qOwCsOU08BIMNMPi8w==
+rethinkdb-ts@^2.4.9:
+  version "2.4.9"
+  resolved "https://registry.yarnpkg.com/rethinkdb-ts/-/rethinkdb-ts-2.4.9.tgz#219f9cd49d23aac4bd58711df3e0607edae408ea"
+  integrity sha512-xWrZw2dnpYmGON6pj5XJ0rPIBVBs1MCWwAeEDSybWP/0zwq7r1fYvibNjK0bCgU6UQ84RNWsKD7hHumE3sSS/A==
 
 setimmediate@^1.0.5:
   version "1.0.5"
