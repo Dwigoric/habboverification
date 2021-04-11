@@ -81,7 +81,7 @@ exports.config = {
 			// ...
 		}
 		*/
-		default: 'rethinkdb'
+		default: 'json'
 	},
 
 	/**
