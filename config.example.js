@@ -66,11 +66,20 @@ exports.config = {
 		// rethinkdb, mongodb, mssql, mysql, postgresql
 		mysql: {
 			host: 'localhost',
-			db: 'klasa',
+			db: 'habboverifier',
 			user: 'database-user',
 			password: 'database-password',
 			options: {}
 		},
+		mongodb: {
+			// ...
+		},
+		postgreqsl: {
+			// ...
+		},
+		rethinkdb: {
+			// ...
+		}
 		*/
 		default: 'rethinkdb'
 	},
@@ -172,9 +181,9 @@ exports.config = {
 	 * Custom Setting Gateway Options
 	 */
 	gateways: {
-		guilds: { provider: 'rethinkdb' },
-		users: { provider: 'rethinkdb' },
-		clientStorage: { provider: 'rethinkdb' }
+		guilds: {},
+		users: {},
+		clientStorage: {}
 	},
 
 	/**
