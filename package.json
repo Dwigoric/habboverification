@@ -21,5 +21,10 @@
     "discord.js": "github:discordjs/discord.js",
     "klasa": "^0.5.0",
     "rethinkdb-ts": "^2.4.9"
+  },
+  "optionalDependencies": {
+    "mongodb": "^3.6.6",
+    "mysql2": "^2.2.5",
+    "pg": "^8.5.1"
   }
 }

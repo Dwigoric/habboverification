@@ -13,7 +13,7 @@ module.exports = class extends Provider {
 
 	async init() {
 		const options = mergeDefault({
-			db: 'HabboVerifier',
+			db: 'habboverifier',
 			silent: false
 		}, this.client.options.providers.rethinkdb);
 
