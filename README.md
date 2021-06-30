@@ -10,7 +10,7 @@ A simple Discord bot for Habbo verification using Habbo mottos, built on [klasa 
 1. Clone the `config.example.js` file and rename it to `config.js`
 2. At the bottom of the file, put the bot's token to `exports.token`.
 3. Install the required dependencies by running `yarn install --frozen-lockfile` or `npm ci` on your CLI.
-4. (Optional) By default, the bot uses the built-in atomic database system. However, you can use RethinkDB, MongoDB, or PostgreSQL. You can edit the database options in the config.js file under the providers object, using the provider's lowercase name as the sub-object name.
+4. (Optional) By default, the bot uses the built-in atomic database system. However, you can use RethinkDB, MongoDB, or PostgreSQL. You can edit the database options in the config.js file under the providers object, using the provider's lowercase name as the sub-object name. **Make sure to delete the other provider files you are not going to use!**
 5. If you are using your own database, delete the other providers in the `src/providers` folder. If you're using the built-in database provider, delete the files inside the same folder.
 6. Run `yarn run run` or `npm run run` on your CLI to start the bot. Alternatively, use a package manager such as [PM2](https://www.npmjs.com/package/pm2) to keep the bot running.
 
